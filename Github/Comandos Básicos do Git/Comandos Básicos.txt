@@ -1,0 +1,22 @@
+git status => mostra todos os arquivos que vc editou
+
+git restore + nome do arquivo que vc não quer que vá para o seu commit
+
+git add . => adiciona todos os arquivos de uma só vez
+
+git add * => adiciona todos os arquivos de uma vez
+
+git commit -m "mensagem breve mais explicativa sobre o meu commit"
+
+git push => empurra teus commit pro servidor
+
+git checkout -b nome-da-branch
+
+git reset --soft HEAD~1 => desfaz o último commit
+
+git pull => atualiza o teu projeto para a versão mais atual que está no servidor
+
+git checkout nome-da-branch-que quero-mudar => muda de branch, desde que não tenha feito nenhuma mudança no código
+
+git clone => clona um repositório para dentro do servidor
+local (PC) para poder fazer alterações 
