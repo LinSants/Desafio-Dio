@@ -20,3 +20,7 @@ git checkout nome-da-branch-que quero-mudar => muda de branch, desde que não te
 
 git clone => clona um repositório para dentro do servidor
 local (PC) para poder fazer alterações 
+
+git remote add origin "link do repositório" => repositório a ser jogado
+
+git push origin master => empurra para o servidor
