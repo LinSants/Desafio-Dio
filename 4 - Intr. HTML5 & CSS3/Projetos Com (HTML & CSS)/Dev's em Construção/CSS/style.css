@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+font-size: 100%;
+background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+}
+
+.cabecalho-do-menu{
+    font-family: 'Sarala', sans-serif;
+    color:#FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+    justify-content:space-around ;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around ;
+    padding: 24px;
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho-novo{
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content:space-around ;
+padding: 24px;
+
+}
+
+.icon-da-pagina{
+    height: 10px;
+    max-width: 80x;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    clear: both;
+    margin-top: 10px;
+
+}
+
+.imagem-do-post{
+    height: 40px;
+    max-width: 5x;
+    max-height: 5px;
+    width: auto;
+    height: auto;
+    clear: both;
+    margin-top: 10px;
+}
+
+.imagem-final{
+    height: 300px;
+    max-width: 1000x;
+    max-height: 100px;
+    width: 100px;
+    height: auto;
+    clear: both;
+    margin-top: 10px;
+
+}
+
+.conteudo {
+border-top: 0.4px solid #FFF2E7;
+margin-bottom: 48px;
+
+}
+
+.conteudo-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-sub {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.conteudo-texto {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    gap: 32px;
+
+}
+
+.conteudo-botao {
+    background-color:#ECD6C4 ;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0, 0.025);
+    border-radius: 20px;
+    font-family: Sarala,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-imagem {
+height: 330px;    
+
+
+}
+
+
+ 
